@@ -1,0 +1,12 @@
+latex file.tex  #编译操作
+divpdfmx file.dvi # dvi->pdf
+
+xelatex file.tex # 不需要转dvi操作
+
+##使用批处理命令*.bat <-----批处理文件##
+
+
+
+
+
+
