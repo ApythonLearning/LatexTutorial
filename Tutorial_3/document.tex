@@ -1,0 +1,58 @@
+\documentclass{article}
+
+\usepackage{ctex}
+
+\newcommand{\myFont}{\textit{\Huge{myfont}}}
+
+\title{\heiti 字体输入方法}% \heiti 黑体字体
+\author{Wang QW}
+\date{\today}
+
+
+\begin{document}
+	\maketitle
+\section{中文输入}
+	中文输入
+\section{查看文档}	
+	使用texdoc查看文档
+	
+	texdoc ctex
+	
+	texdoc lshort -zh
+	
+\section{字体设置}
+\subsection{字体族}
+%字体族设置
+\textrm{Roman Family} \textsf{Sans Serif Family}
+\subsection{作用范围}
+%作用范围
+{\rmfamily Roman in a big brace}
+
+\rmfamily This is a paragraph,and you can see in this paragraph the word is in a form of Roman Family.
+
+%字体形状设置
+\subsection{字体形状}
+\textup{直立} \textit{Italic Shape} \textsl{Slandted Shape} \textsc{Small Caps Shape}
+\subsection{中文字体}
+{\songti 宋体} \quad{\heiti 黑体} \quad{\kaishu 楷书}
+中文字体的\textbf{粗体}与\textit{斜体}
+\subsection{字体大小}
+%字体大小设置
+{\tiny Hello}\\
+{\scriptsize Hello}\\
+{\footnotesize Hello}\\
+{\small Hello}\\
+{\normalsize Hello}\\
+{\large Hello}\\
+{\Large Hello}\\
+{\LARGE Hello}\\
+{\huge Hello}\\
+{\Huge Hello}
+
+%中文字号
+\zihao{5} 你好
+
+\myFont
+
+
+\end{document}
